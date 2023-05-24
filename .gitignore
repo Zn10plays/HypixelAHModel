@@ -1,0 +1,5 @@
+/hypredictor/*
+# venv
+
+*.env
+# all the vars
