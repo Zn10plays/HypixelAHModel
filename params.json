@@ -1,0 +1,5572 @@
+[
+  {
+    "name": "Reforge",
+    "options": [
+      "ambered",
+      "ancient",
+      "Any",
+      "aote_stone",
+      "aoteStone",
+      "Auspicious",
+      "awkward",
+      "Bizarre",
+      "blessed",
+      "bloody",
+      "blooming",
+      "bountiful",
+      "bulky",
+      "bustling",
+      "candied",
+      "chomp",
+      "Clean",
+      "coldfusion",
+      "cubic",
+      "Deadly",
+      "Demonic",
+      "dirty",
+      "double_bit",
+      "earthy",
+      "empowered",
+      "Epic",
+      "excellent",
+      "Fabled",
+      "Fair",
+      "Fast",
+      "festive",
+      "Fierce",
+      "Fine",
+      "fleet",
+      "Forceful",
+      "fortified",
+      "fortunate",
+      "fruitful",
+      "Gentle",
+      "Giant",
+      "Gilded",
+      "glistening",
+      "Godly",
+      "Grand",
+      "great",
+      "green_thumb",
+      "Hasty",
+      "headstrong",
+      "heated",
+      "Heavy",
+      "Heroic",
+      "Highly",
+      "Hurtful",
+      "Itchy",
+      "jaded",
+      "Keen",
+      "Legendary",
+      "Light",
+      "Loving",
+      "lucky",
+      "lumberjack",
+      "lush",
+      "Magnetic",
+      "mithraic",
+      "moil",
+      "mossy",
+      "Mythic",
+      "Neat",
+      "Necrotic",
+      "None",
+      "Odd",
+      "odd_bow",
+      "odd_sword",
+      "Ominous",
+      "Omnious",
+      "Papid",
+      "peasant",
+      "Perfect",
+      "pitchin",
+      "Pleasant",
+      "Precise",
+      "Pretty",
+      "prospector",
+      "Pure",
+      "Rapid",
+      "Refined",
+      "Reinforced",
+      "Renowned",
+      "Rich",
+      "rich_bow",
+      "rich_sword",
+      "ridiculous",
+      "robust",
+      "rooted",
+      "rugged",
+      "Salty",
+      "shaded",
+      "Sharp",
+      "Shiny",
+      "Silky",
+      "Simple",
+      "Smart",
+      "snowy",
+      "Spicy",
+      "Spiked",
+      "Spiritual",
+      "stellar",
+      "stiff",
+      "Strange",
+      "strengthened",
+      "Strong",
+      "sturdy",
+      "submerged",
+      "Superior",
+      "suspicious",
+      "sweet",
+      "Titanic",
+      "toil",
+      "Treacherous",
+      "undead",
+      "Unknown",
+      "Unpleasant",
+      "Unreal",
+      "unyielding",
+      "Very",
+      "Vivid",
+      "warped",
+      "warped_on_aote",
+      "waxed",
+      "Wise",
+      "withered",
+      "Zealous",
+      "zooming"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Rarity",
+    "options": [
+      "UNKNOWN",
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "SPECIAL",
+      "VERY_SPECIAL",
+      "MYTHIC",
+      "SUPREME",
+      "DIVINE"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": "aka Tier (Rare, Epic, etc)"
+  },
+  {
+    "name": "PetLevel",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "PetItem",
+    "options": [
+      "Any",
+      "DWARF_TURTLE_SHELMET",
+      "CROCHET_TIGER_PLUSHIE",
+      "PET_ITEM_MINING_SKILL_BOOST_RARE",
+      "PET_ITEM_FARMING_SKILL_BOOST_RARE",
+      "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+      "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
+      "PET_ITEM_TEXTBOOK",
+      "PET_ITEM_SPOOKY_CUPCAKE",
+      "WASHED_UP_SOUVENIR",
+      "PET_ITEM_LUCKY_CLOVER",
+      "PET_ITEM_EXP_SHARE",
+      "YELLOW_BANDANA",
+      "PET_ITEM_COMBAT_SKILL_BOOST_UNCOMMON",
+      "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
+      "PET_ITEM_COMBAT_SKILL_BOOST_COMMON",
+      "ANTIQUE_REMEDIES",
+      "PET_ITEM_MINING_SKILL_BOOST_COMMON",
+      "PET_ITEM_FISHING_SKILL_BOOST_RARE",
+      "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON",
+      "PET_ITEM_FORAGING_SKILL_BOOST_COMMON",
+      "PET_ITEM_TIER_BOOST",
+      "PET_ITEM_IRON_CLAWS_COMMON",
+      "PET_ITEM_COMBAT_SKILL_BOOST_EPIC",
+      "PET_ITEM_FARMING_SKILL_BOOST_UNCOMMON",
+      "PET_ITEM_FARMING_SKILL_BOOST_COMMON",
+      "PET_ITEM_FORAGING_SKILL_BOOST_EPIC",
+      "PET_ITEM_QUICK_CLAW",
+      "GREEN_BANDANA",
+      "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
+      "MINOS_RELIC",
+      "PET_ITEM_VAMPIRE_FANG",
+      "PET_ITEM_TOY_JERRY",
+      "PET_ITEM_FLYING_PIG",
+      "PET_ITEM_BUBBLEGUM",
+      "PET_ITEM_FISHING_SKILL_BOOST_EPIC",
+      "PET_ITEM_SADDLE",
+      "PET_ITEM_SHARPENED_CLAWS_UNCOMMON",
+      "REAPER_GEM",
+      "PET_ITEM_HARDENED_SCALES_UNCOMMON",
+      "ALL_SKILLS_SUPER_BOOST",
+      "GOLD_CLAWS",
+      "PET_ITEM_BIG_TEETH_COMMON",
+      "REINFORCED_SCALES",
+      "SERRATED_CLAWS",
+      "BIGGER_TEETH",
+      "None",
+      "NOT_TIER_BOOST"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "PetSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "CakeYear",
+    "options": [
+      "1",
+      "282"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Candy",
+    "options": [
+      "none",
+      "any",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Clean",
+    "options": [
+      "yes"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "PricePerLevel",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Bin",
+    "options": [
+      "true",
+      "false"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "Stars",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "IsShiny",
+    "options": [
+      "true",
+      "false"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "Recombobulated",
+    "options": [
+      "true",
+      "false"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "HotPotatoCount",
+    "options": [
+      "none",
+      "1-9",
+      "10",
+      "15"
+    ],
+    "type": 129,
+    "longType": "Equal, SIMPLE",
+    "description": null
+  },
+  {
+    "name": "Enchantment",
+    "options": [
+      "aiming",
+      "angler",
+      "Any",
+      "aqua_affinity",
+      "bane_of_arthropods",
+      "big_brain",
+      "blast_protection",
+      "blessing",
+      "caster",
+      "cayenne",
+      "champion",
+      "chance",
+      "charm",
+      "cleave",
+      "compact",
+      "corruption",
+      "counter_strike",
+      "critical",
+      "cubism",
+      "cultivating",
+      "dedication",
+      "delicate",
+      "depth_strider",
+      "divine_gift",
+      "dragon_hunter",
+      "efficiency",
+      "ender_slayer",
+      "execute",
+      "experience",
+      "expertise",
+      "feather_falling",
+      "ferocious_mana",
+      "fire_aspect",
+      "fire_protection",
+      "first_strike",
+      "flame",
+      "fortune",
+      "frail",
+      "frost_walker",
+      "giant_killer",
+      "green_thumb",
+      "growth",
+      "hardened_mana",
+      "harvesting",
+      "hecatomb",
+      "impaling",
+      "infinite_quiver",
+      "knockback",
+      "lethality",
+      "life_steal",
+      "looting",
+      "luck",
+      "luck_of_the_sea",
+      "lure",
+      "magnet",
+      "mana_steal",
+      "mana_vampire",
+      "None",
+      "overload",
+      "piercing",
+      "piscary",
+      "power",
+      "pristine",
+      "projectile_protection",
+      "PROSECUTE",
+      "prosperity",
+      "protection",
+      "punch",
+      "rainbow",
+      "rejuvenate",
+      "replenish",
+      "respiration",
+      "respite",
+      "scavenger",
+      "sharpness",
+      "silk_touch",
+      "smarty_pants",
+      "smelting_touch",
+      "smite",
+      "smoldering",
+      "snipe",
+      "spiked_hook",
+      "strong_mana",
+      "sugar_rush",
+      "sunder",
+      "syphon",
+      "tabasco",
+      "telekinesis",
+      "thorns",
+      "thunderbolt",
+      "thunderlord",
+      "titan_killer",
+      "triple_strike",
+      "true_protection",
+      "turbo_cactus",
+      "turbo_cane",
+      "turbo_carrot",
+      "turbo_coco",
+      "turbo_melon",
+      "turbo_mushrooms",
+      "turbo_potato",
+      "turbo_pumpkin",
+      "turbo_warts",
+      "turbo_wheat",
+      "ultimate_bank",
+      "ultimate_bobbin_time",
+      "ultimate_chimera",
+      "ultimate_combo",
+      "ultimate_duplex",
+      "ultimate_fatal_tempo",
+      "ultimate_flash",
+      "ultimate_habanero_tactics",
+      "ultimate_inferno",
+      "ultimate_jerry",
+      "ultimate_last_stand",
+      "ultimate_legion",
+      "ultimate_no_pain_no_gain",
+      "ultimate_one_for_all",
+      "ultimate_reiterate",
+      "ultimate_rend",
+      "ultimate_soul_eater",
+      "ultimate_swarm",
+      "ultimate_wisdom",
+      "ultimate_wise",
+      "unknown",
+      "vampirism",
+      "venomous",
+      "vicious"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "EnchantLvl",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "SecondEnchantment",
+    "options": [
+      "aiming",
+      "angler",
+      "Any",
+      "aqua_affinity",
+      "bane_of_arthropods",
+      "big_brain",
+      "blast_protection",
+      "blessing",
+      "caster",
+      "cayenne",
+      "champion",
+      "chance",
+      "charm",
+      "cleave",
+      "compact",
+      "corruption",
+      "counter_strike",
+      "critical",
+      "cubism",
+      "cultivating",
+      "dedication",
+      "delicate",
+      "depth_strider",
+      "divine_gift",
+      "dragon_hunter",
+      "efficiency",
+      "ender_slayer",
+      "execute",
+      "experience",
+      "expertise",
+      "feather_falling",
+      "ferocious_mana",
+      "fire_aspect",
+      "fire_protection",
+      "first_strike",
+      "flame",
+      "fortune",
+      "frail",
+      "frost_walker",
+      "giant_killer",
+      "green_thumb",
+      "growth",
+      "hardened_mana",
+      "harvesting",
+      "hecatomb",
+      "impaling",
+      "infinite_quiver",
+      "knockback",
+      "lethality",
+      "life_steal",
+      "looting",
+      "luck",
+      "luck_of_the_sea",
+      "lure",
+      "magnet",
+      "mana_steal",
+      "mana_vampire",
+      "None",
+      "overload",
+      "piercing",
+      "piscary",
+      "power",
+      "pristine",
+      "projectile_protection",
+      "PROSECUTE",
+      "prosperity",
+      "protection",
+      "punch",
+      "rainbow",
+      "rejuvenate",
+      "replenish",
+      "respiration",
+      "respite",
+      "scavenger",
+      "sharpness",
+      "silk_touch",
+      "smarty_pants",
+      "smelting_touch",
+      "smite",
+      "smoldering",
+      "snipe",
+      "spiked_hook",
+      "strong_mana",
+      "sugar_rush",
+      "sunder",
+      "syphon",
+      "tabasco",
+      "telekinesis",
+      "thorns",
+      "thunderbolt",
+      "thunderlord",
+      "titan_killer",
+      "triple_strike",
+      "true_protection",
+      "turbo_cactus",
+      "turbo_cane",
+      "turbo_carrot",
+      "turbo_coco",
+      "turbo_melon",
+      "turbo_mushrooms",
+      "turbo_potato",
+      "turbo_pumpkin",
+      "turbo_warts",
+      "turbo_wheat",
+      "ultimate_bank",
+      "ultimate_bobbin_time",
+      "ultimate_chimera",
+      "ultimate_combo",
+      "ultimate_duplex",
+      "ultimate_fatal_tempo",
+      "ultimate_flash",
+      "ultimate_habanero_tactics",
+      "ultimate_inferno",
+      "ultimate_jerry",
+      "ultimate_last_stand",
+      "ultimate_legion",
+      "ultimate_no_pain_no_gain",
+      "ultimate_one_for_all",
+      "ultimate_reiterate",
+      "ultimate_rend",
+      "ultimate_soul_eater",
+      "ultimate_swarm",
+      "ultimate_wisdom",
+      "ultimate_wise",
+      "unknown",
+      "vampirism",
+      "venomous",
+      "vicious"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "SecondEnchantLvl",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Color",
+    "options": [
+      "Any",
+      "0:0:0",
+      "41:240:233",
+      "221:228:240",
+      "0:44:166",
+      "178:18:227",
+      "231:65:60",
+      "160:218:239",
+      "217:30:65",
+      "231:92:60",
+      "231:110:60",
+      "29:17:5",
+      "191:188:178",
+      "10:0:17",
+      "3:252:248",
+      "64:3:82",
+      "27:27:27",
+      "252:243:255",
+      "224:148:25",
+      "55:1:71",
+      "240:209:36",
+      "242:223:17",
+      "204:85:0",
+      "160:101:64",
+      "240:230:170",
+      "31:0:48",
+      "255:117:255",
+      "200:50:0",
+      "23:168:196",
+      "136:131:126",
+      "101:96:90",
+      "28:212:228",
+      "242:93:24",
+      "137:105:200",
+      "204:229:255",
+      "208:127:0",
+      "0:0:255",
+      "23:147:196",
+      "255:255:255",
+      "0:190:0",
+      "69:65:60",
+      "153:151:139",
+      "255:147:0",
+      "71:209:71",
+      "55:176:66",
+      "153:51:153",
+      "225:235:52",
+      "255:188:11",
+      "56:56:56",
+      "191:191:191",
+      "159:134:9",
+      "168:43:118",
+      "222:188:21",
+      "255:107:11",
+      "239:225:245",
+      "255:102:178",
+      "255:0:0",
+      "255:153:204",
+      "1:125:49",
+      "90:100:100",
+      "158:112:3",
+      "255:51:153",
+      "25:25:25",
+      "255:204:229",
+      "193:60:15",
+      "93:47:185",
+      "224:252:247",
+      "130:130:130",
+      "229:209:237",
+      "199:199:199",
+      "96:96:96",
+      "255:220:81",
+      "99:35:125",
+      "179:179:179",
+      "74:20:183",
+      "17:115:145",
+      "217:193:227",
+      "247:218:51",
+      "122:232:44",
+      "184:139:201",
+      "198:163:212",
+      "122:121:100",
+      "255:0:127",
+      "0:255:0",
+      "254:253:252",
+      "230:230:230",
+      "168:117:189",
+      "4:207:211",
+      "142:81:166",
+      "156:100:179",
+      "173:255:47",
+      "126:65:150",
+      "217:217:217",
+      "51:76:178",
+      "51:42:42",
+      "213:18:48",
+      "11:0:79",
+      "106:44:130",
+      "255:255:0",
+      "255:215:0",
+      "204:0:102",
+      "70:8:94",
+      "93:28:120",
+      "155:1:193",
+      "27:0:31",
+      "212:212:212",
+      "14:0:15",
+      "21:0:23",
+      "144:0:163",
+      "7:0:8",
+      "84:20:110",
+      "131:0:147",
+      "89:0:101",
+      "103:0:116",
+      "41:0:46",
+      "76:0:85",
+      "151:0:170",
+      "82:0:93",
+      "77:204:77",
+      "96:0:108",
+      "38:129:5",
+      "34:0:39",
+      "110:0:124",
+      "69:0:77",
+      "187:0:0",
+      "137:0:155",
+      "48:0:54",
+      "62:0:70",
+      "158:0:178",
+      "124:0:139",
+      "153:0:76",
+      "117:0:132",
+      "55:0:62",
+      "110:0:160",
+      "153:51:51",
+      "128:128:128",
+      "102:153:216",
+      "212:0:255",
+      "51:0:102",
+      "255:66:66",
+      "213:121:255",
+      "237:170:54",
+      "255:0:255",
+      "42:181:165",
+      "102:0:51",
+      "204:0:204",
+      "102:0:102",
+      "153:0:153",
+      "102:0:204",
+      "22:159:87",
+      "255:102:255",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "ExoticColor",
+    "options": [
+      "Any:169F57,2AB5A5,EDAA36,D579FF,FF4242,D400FF,6699D8,808080,993333,6E00A0,37003E,750084,7C008B,9E00B2,3E0046,300036,89009B,BB0000,45004D,6E007C,220027,268105,60006C,4DCC4D,52005D,9700AA,4C0055,29002E,670074,590065,830093,070008,9000A3,150017,0E000F,D4D4D4,1B001F,9B01C1,FFD700,FFFF00,0B004F,D51230,332A2A,334CB2,D9D9D9,ADFF2F,04CFD3,E6E6E6,FEFDFC,00FF00,7A7964,7AE82C,F7DA33,117391,4A14B7,B3B3B3,FFDC51,606060,C7C7C7,828282,E0FCF7,5D2FB9,C13C0F,191919,9E7003,5A6464,017D31,FF0000,FF6B0B,DEBC15,A82B76,9F8609,BFBFBF,383838,FFBC0B,E1EB34,993399,37B042,47D147,FF9300,99978B,45413C,00BE00,FFFFFF,1793C4,0000FF,D07F00,CCE5FF,8969C8,F25D18,1CD4E4,65605A,88837E,17A8C4,C83200,FF75FF,F0E6AA,CC5500,F2DF11,F0D124,370147,E09419,1B1B1B,400352,03FCF8,0A0011,BFBCB2,1D1105,E76E3C,E75C3C,D91E41,A0DAEF,E7413C,B212E3,002CA6,DDE4F0,29F0E9",
+      "169F57",
+      "2AB5A5",
+      "EDAA36",
+      "D579FF",
+      "FF4242",
+      "D400FF",
+      "6699D8",
+      "808080",
+      "993333",
+      "6E00A0",
+      "37003E",
+      "750084",
+      "7C008B",
+      "9E00B2",
+      "3E0046",
+      "300036",
+      "89009B",
+      "BB0000",
+      "45004D",
+      "6E007C",
+      "220027",
+      "268105",
+      "60006C",
+      "4DCC4D",
+      "52005D",
+      "9700AA",
+      "4C0055",
+      "29002E",
+      "670074",
+      "590065",
+      "830093",
+      "070008",
+      "9000A3",
+      "150017",
+      "0E000F",
+      "D4D4D4",
+      "1B001F",
+      "9B01C1",
+      "FFD700",
+      "FFFF00",
+      "0B004F",
+      "D51230",
+      "332A2A",
+      "334CB2",
+      "D9D9D9",
+      "ADFF2F",
+      "04CFD3",
+      "E6E6E6",
+      "FEFDFC",
+      "00FF00",
+      "7A7964",
+      "7AE82C",
+      "F7DA33",
+      "117391",
+      "4A14B7",
+      "B3B3B3",
+      "FFDC51",
+      "606060",
+      "C7C7C7",
+      "828282",
+      "E0FCF7",
+      "5D2FB9",
+      "C13C0F",
+      "191919",
+      "9E7003",
+      "5A6464",
+      "017D31",
+      "FF0000",
+      "FF6B0B",
+      "DEBC15",
+      "A82B76",
+      "9F8609",
+      "BFBFBF",
+      "383838",
+      "FFBC0B",
+      "E1EB34",
+      "993399",
+      "37B042",
+      "47D147",
+      "FF9300",
+      "99978B",
+      "45413C",
+      "00BE00",
+      "FFFFFF",
+      "1793C4",
+      "0000FF",
+      "D07F00",
+      "CCE5FF",
+      "8969C8",
+      "F25D18",
+      "1CD4E4",
+      "65605A",
+      "88837E",
+      "17A8C4",
+      "C83200",
+      "FF75FF",
+      "F0E6AA",
+      "CC5500",
+      "F2DF11",
+      "F0D124",
+      "370147",
+      "E09419",
+      "1B1B1B",
+      "400352",
+      "03FCF8",
+      "0A0011",
+      "BFBCB2",
+      "1D1105",
+      "E76E3C",
+      "E75C3C",
+      "D91E41",
+      "A0DAEF",
+      "E7413C",
+      "B212E3",
+      "002CA6",
+      "DDE4F0",
+      "29F0E9",
+      "Fairy:330066,4C0099,660033,660066,6600CC,7F00FF,99004C,990099,9933FF,B266FF,CC0066,CC00CC,CC99FF,E5CCFF,FF007F,FF00FF,FF3399,FF33FF,FF66B2,FF66FF,FF99CC,FF99FF,FFCCE5,FFCCFF",
+      "Crystal:1F0030,46085E,54146E,5D1C78,63237D,6A2C82,7E4196,8E51A6,9C64B3,A875BD,B88BC9,C6A3D4,D9C1E3,E5D1ED,EFE1F5,FCF3FF",
+      "Fairy+Crystal:330066,4C0099,660033,660066,6600CC,7F00FF,99004C,990099,9933FF,B266FF,CC0066,CC00CC,CC99FF,E5CCFF,FF007F,FF00FF,FF3399,FF33FF,FF66B2,FF66FF,FF99CC,FF99FF,FFCCE5,FFCCFF,1F0030,46085E,54146E,5D1C78,63237D,6A2C82,7E4196,8E51A6,9C64B3,A875BD,B88BC9,C6A3D4,D9C1E3,E5D1ED,EFE1F5,FCF3FF"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "FairyColor",
+    "options": [
+      "Fairy:330066,4C0099,660033,660066,6600CC,7F00FF,99004C,990099,9933FF,B266FF,CC0066,CC00CC,CC99FF,E5CCFF,FF007F,FF00FF,FF3399,FF33FF,FF66B2,FF66FF,FF99CC,FF99FF,FFCCE5,FFCCFF"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "CrystalColor",
+    "options": [
+      "Crystal:1F0030,46085E,54146E,5D1C78,63237D,6A2C82,7E4196,8E51A6,9C64B3,A875BD,B88BC9,C6A3D4,D9C1E3,E5D1ED,EFE1F5,FCF3FF"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "HexColorList",
+    "options": [
+      "Any",
+      "0:0:0",
+      "41:240:233",
+      "221:228:240",
+      "0:44:166",
+      "178:18:227",
+      "231:65:60",
+      "160:218:239",
+      "217:30:65",
+      "231:92:60",
+      "231:110:60",
+      "29:17:5",
+      "191:188:178",
+      "10:0:17",
+      "3:252:248",
+      "64:3:82",
+      "27:27:27",
+      "252:243:255",
+      "224:148:25",
+      "55:1:71",
+      "240:209:36",
+      "242:223:17",
+      "204:85:0",
+      "160:101:64",
+      "240:230:170",
+      "31:0:48",
+      "255:117:255",
+      "200:50:0",
+      "23:168:196",
+      "136:131:126",
+      "101:96:90",
+      "28:212:228",
+      "242:93:24",
+      "137:105:200",
+      "204:229:255",
+      "208:127:0",
+      "0:0:255",
+      "23:147:196",
+      "255:255:255",
+      "0:190:0",
+      "69:65:60",
+      "153:151:139",
+      "255:147:0",
+      "71:209:71",
+      "55:176:66",
+      "153:51:153",
+      "225:235:52",
+      "255:188:11",
+      "56:56:56",
+      "191:191:191",
+      "159:134:9",
+      "168:43:118",
+      "222:188:21",
+      "255:107:11",
+      "239:225:245",
+      "255:102:178",
+      "255:0:0",
+      "255:153:204",
+      "1:125:49",
+      "90:100:100",
+      "158:112:3",
+      "255:51:153",
+      "25:25:25",
+      "255:204:229",
+      "193:60:15",
+      "93:47:185",
+      "224:252:247",
+      "130:130:130",
+      "229:209:237",
+      "199:199:199",
+      "96:96:96",
+      "255:220:81",
+      "99:35:125",
+      "179:179:179",
+      "74:20:183",
+      "17:115:145",
+      "217:193:227",
+      "247:218:51",
+      "122:232:44",
+      "184:139:201",
+      "198:163:212",
+      "122:121:100",
+      "255:0:127",
+      "0:255:0",
+      "254:253:252",
+      "230:230:230",
+      "168:117:189",
+      "4:207:211",
+      "142:81:166",
+      "156:100:179",
+      "173:255:47",
+      "126:65:150",
+      "217:217:217",
+      "51:76:178",
+      "51:42:42",
+      "213:18:48",
+      "11:0:79",
+      "106:44:130",
+      "255:255:0",
+      "255:215:0",
+      "204:0:102",
+      "70:8:94",
+      "93:28:120",
+      "155:1:193",
+      "27:0:31",
+      "212:212:212",
+      "14:0:15",
+      "21:0:23",
+      "144:0:163",
+      "7:0:8",
+      "84:20:110",
+      "131:0:147",
+      "89:0:101",
+      "103:0:116",
+      "41:0:46",
+      "76:0:85",
+      "151:0:170",
+      "82:0:93",
+      "77:204:77",
+      "96:0:108",
+      "38:129:5",
+      "34:0:39",
+      "110:0:124",
+      "69:0:77",
+      "187:0:0",
+      "137:0:155",
+      "48:0:54",
+      "62:0:70",
+      "158:0:178",
+      "124:0:139",
+      "153:0:76",
+      "117:0:132",
+      "55:0:62",
+      "110:0:160",
+      "153:51:51",
+      "128:128:128",
+      "102:153:216",
+      "212:0:255",
+      "51:0:102",
+      "255:66:66",
+      "213:121:255",
+      "237:170:54",
+      "255:0:255",
+      "42:181:165",
+      "102:0:51",
+      "204:0:204",
+      "102:0:102",
+      "153:0:153",
+      "102:0:204",
+      "22:159:87",
+      "255:102:255",
+      "None"
+    ],
+    "type": 32,
+    "longType": "RANGE",
+    "description": null
+  },
+  {
+    "name": "CrabHatColor",
+    "options": [
+      "red",
+      "orange",
+      "yellow",
+      "lime",
+      "green",
+      "aqua",
+      "purple",
+      "pink",
+      "black"
+    ],
+    "type": 129,
+    "longType": "Equal, SIMPLE",
+    "description": null
+  },
+  {
+    "name": "Seller",
+    "options": [
+      ""
+    ],
+    "type": 64,
+    "longType": "TEXT",
+    "description": null
+  },
+  {
+    "name": "WinningBid",
+    "options": [
+      "60540000",
+      "1059880000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Ethermerge",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Fragged",
+    "options": [
+      "True",
+      "False"
+    ],
+    "type": 384,
+    "longType": "SIMPLE, BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "DragonArmorSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "ReaperMaskSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "SnowSuiteSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "TarantulaHelmetSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "FrozenBlazeSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "PerfectHelmetSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "DiversMaskSkin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "ShadowAssasinSkin",
+    "options": [
+      "SHADOW_ASSASSIN_CRIMSON",
+      "SHADOW_ASSASSIN_MAUVE",
+      "SHADOW_ASSASSIN_ADMIRAL"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Skin",
+    "options": [
+      "any",
+      "ENDERMAN_SLAYER",
+      "BLACK_CAT_PURRANORMAL",
+      "BLAZE_FROZEN",
+      "TIGER_GOLDEN",
+      "DRAGON_PASTEL",
+      "GOLDEN_DRAGON_ANUBIS",
+      "ENDER_DRAGON_UNDEAD",
+      "SHADOW_ASSASSIN_ADMIRAL",
+      "WITHER_GOGGLES_CYBERPUNK",
+      "RAT_HIDE_AND_SQUEAK",
+      "BAL_INFERNO",
+      "TRUE_WARDEN",
+      "SHADOW_ASSASSIN_MAUVE",
+      "ENDERMAN_XENON",
+      "SHADOW_ASSASSIN_CRIMSON",
+      "BLACK_CAT_ONYX",
+      "ELEPHANT_MONOCHROME",
+      "BLACK_CAT_IVORY",
+      "TIGER_SABER_TOOTH",
+      "ARMADILLO_SEAFOAM",
+      "ENDERMAN_NEON",
+      "WITHER_GOGGLES_CELESTIAL",
+      "SCATHA_GOLDEN",
+      "GLOWING_GRAPE_FLUX",
+      "DOLPHIN_SNUBFIN",
+      "NECRON_CELESTIAL",
+      "ARMADILLO_ENCHANTED",
+      "STORM_CELESTIAL",
+      "ROCK_NORTH_STAR",
+      "WHALE_ORCA",
+      "SHEEP_CHROMA_WOOLY",
+      "DRAGON_NEON_BLUE",
+      "DRAGON_NEON_RED",
+      "SCATHA_DARK",
+      "MOOSHROOM_COW_MOOCELIUM",
+      "GRIFFIN_REINDRAKE",
+      "WOLF",
+      "TIGER_NEON",
+      "BEE_ZOMBEE",
+      "MONKEY_GORILLA",
+      "DRAGON_NEON_PURPLE",
+      "SHEEP_BLACK_WOOLY",
+      "RABBIT_AQUAMARINE",
+      "SQUID_GLOW",
+      "JERRY_HANDSOME",
+      "OCELOT_SNOW_TIGER",
+      "MEGALODON_BABY",
+      "GOLDOR_CELESTIAL",
+      "WISE_SHIMMER",
+      "SILVERFISH_FOSSILIZED",
+      "SUPERIOR_SHIMMER",
+      "SHEEP_WHITE_WOOLY",
+      "PHOENIX_ICE",
+      "SCATHA_ALBINO",
+      "RABBIT_ROSE",
+      "RABBIT_LUNAR",
+      "BEE_RGBEE",
+      "HOUND_BEAGLE",
+      "JELLYFISH_LUMINESCENT",
+      "WITHER",
+      "BAT_VAMPIRE",
+      "TARANTULA_BLACK_WIDOW",
+      "YOUNG_SHIMMER",
+      "SUPERIOR_BABY",
+      "MAXOR_CELESTIAL",
+      "CHICKEN_BABY_CHICK",
+      "YETI_GROWN_UP",
+      "DOLPHIN_SNUBNOSE_GREEN",
+      "DOLPHIN_SNUBNOSE_PURPLE",
+      "ENDERMITE_RADIANT",
+      "ENDERMAN",
+      "SHEEP_NEON_BLUE",
+      "DOLPHIN_SNUBNOSE_RED",
+      "PARROT_GOLD_MACAW",
+      "TIGER_TWILIGHT",
+      "REINDEER_AURORA",
+      "ELEPHANT_GREEN",
+      "GOLDEN_APPLE_FLUX",
+      "MONKEY_GOLDEN",
+      "DIVER_PUFFER",
+      "UNSTABLE_SHIMMER",
+      "HORSE_ZOMBIE",
+      "GUARDIAN",
+      "FROZEN_BLAZE_ICICLE",
+      "SILVERFISH",
+      "ELEPHANT_PURPLE",
+      "SHEEP_NEON_YELLOW",
+      "STRONG_SHIMMER",
+      "ELEPHANT_RED",
+      "REAPER_SPIRIT",
+      "SHEEP_NEON_RED",
+      "WISE_BABY",
+      "RABBIT",
+      "GLISTENING_MELON_FLUX",
+      "MASTIFF_PUPPY",
+      "ENDERPACK",
+      "ELEPHANT_ORANGE",
+      "PROTECTOR_BABY",
+      "YOUNG_BABY",
+      "SHEEP_NEON_GREEN",
+      "ELEPHANT_BLUE",
+      "STRONG_BABY",
+      "HOLY_BABY",
+      "SHADOW_ASSASSIN_SLY_FOX",
+      "UNSTABLE_BABY",
+      "LUNAR_RABBIT_HAT",
+      "SHEEP_WHITE",
+      "ELEPHANT_PINK",
+      "CHICKEN_TURKEY",
+      "SNOWMAN_ICE_GOLEM",
+      "OLD_BABY",
+      "JERRY_GREEN_ELF",
+      "JERRY_RED_ELF",
+      "SNOW_SNOWGLOBE",
+      "AMMONITE_MAGMA",
+      "HOLY_SHIMMER",
+      "SHEEP_LIGHT_BLUE",
+      "SHEEP_BLACK",
+      "OLD_SHIMMER",
+      "PROTECTOR_SHIMMER",
+      "BLUE_EGG",
+      "ROCK_COOL",
+      "PURPLE_EGG",
+      "ROCK_DERP",
+      "SHEEP_PURPLE",
+      "PERFECT_FORGE",
+      "GREEN_EGG",
+      "SHEEP_PINK",
+      "ROCK_SURPRISED",
+      "PENGUIN_BACKPACK",
+      "ROCK_LAUGH",
+      "ROCK_BLINKING",
+      "ROCK_SMILE",
+      "BABYSEAL_BACKPACK",
+      "SHEEP_LIGHT_GREEN",
+      "ROCK_SUS",
+      "REINDEER_BACKPACK",
+      "ROCK_SWEATING",
+      "ROCK_EMBARRASSED",
+      "ROCK_THINKING",
+      "AMMONITE_NATURAL",
+      "44927ce5ba22ad1e757d6a333e275b36da1a8436fcef077340ab53e3fb",
+      "69d1d3113ec43ac2961dd59f28175fb4718873c6c448dfca8722317d67",
+      "7d14e252ca4a343882c3b05bbcfb8fc837d2de9db41dc537113b732098",
+      "d83571ff589f1a59bb02b80800fc736116e27c3dcf9efebede8cf1fdde",
+      "141553db77339b48fbf39a3d09b3ed7ba5ee49e16ac56a9f6b9fd53cf4a",
+      "1b15ce823770d9a269c1ebf583d3e4932747a13ef43613cd4f75f804ca4",
+      "3d801560dafae81044a4a74fac483e995c34de874827a67f0637d967a6a",
+      "4a786e4e35b59d91eb6454ef26b7b0683761d6b11f1d63c7740af17aa3f",
+      "556ca5c679336dd4f3262f4fbc23c1a2ee0d82a7fd81e6e62337e5fd5c7",
+      "none"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "MusicRune",
+    "options": [
+      "1",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "EnchantRune",
+    "options": [
+      "1",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "TidalRune",
+    "options": [
+      "1",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "EndRune",
+    "options": [
+      "1",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "GrandSearingRune",
+    "options": [
+      "3",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ZombieKills",
+    "options": [
+      "1",
+      "1074945"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "SpiderKills",
+    "options": [
+      "1",
+      "1076647"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "EmanKills",
+    "options": [
+      "1",
+      "302623"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ExpertiseKills",
+    "options": [
+      "1",
+      "1743352"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "RaiderKills",
+    "options": [
+      "1",
+      "5764228"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "SwordKills",
+    "options": [
+      "1",
+      "427126"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "BloodGodKills",
+    "options": [
+      "1",
+      "110398688"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "BlazeKills",
+    "options": [
+      "1",
+      "2808672"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "YogsKilled",
+    "options": [
+      "1",
+      "6360"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "StartingBid",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "PricePerUnit",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "HighestBid",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Count",
+    "options": [
+      "0",
+      "10000000000"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "JyrreMax",
+    "options": [
+      "132600"
+    ],
+    "type": 2,
+    "longType": "HIGHER",
+    "description": null
+  },
+  {
+    "name": "UId",
+    "options": [
+      "000000000000",
+      "ffffffffffff"
+    ],
+    "type": 33,
+    "longType": "Equal, RANGE",
+    "description": null
+  },
+  {
+    "name": "CapturedPlayer",
+    "options": [
+      "",
+      ""
+    ],
+    "type": 577,
+    "longType": "Equal, TEXT, PLAYER_WITH_RANK",
+    "description": null
+  },
+  {
+    "name": "ArtOfTheWar",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "WoodSingularity",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "EndBefore",
+    "options": [
+      "06/01/2019 00:00:00",
+      "06/12/2023 19:33:40"
+    ],
+    "type": 12,
+    "longType": "LOWER, DATE",
+    "description": null
+  },
+  {
+    "name": "EndAfter",
+    "options": [
+      "06/01/2019 00:00:00",
+      "06/12/2023 19:33:40"
+    ],
+    "type": 10,
+    "longType": "HIGHER, DATE",
+    "description": null
+  },
+  {
+    "name": "ItemId",
+    "options": [
+      "1",
+      "1000"
+    ],
+    "type": 17,
+    "longType": "Equal, NUMERICAL",
+    "description": null
+  },
+  {
+    "name": "UnlockedSlots",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": "Amount of unlocked slots"
+  },
+  {
+    "name": "UnlockedSlotsMatch",
+    "options": [
+      "Any",
+      "JADE_0,UNIVERSAL_0",
+      "JADE_0",
+      "COMBAT_0",
+      "JASPER_0",
+      "COMBAT_0,JASPER_0",
+      "AMBER_0,AMBER_1,JADE_0,JADE_1,TOPAZ_0",
+      "SAPPHIRE_0",
+      "AMBER_0,JADE_0",
+      "JASPER_0,JASPER_1",
+      "JASPER_0,SAPPHIRE_0",
+      "JADE_0,JADE_1,TOPAZ_0",
+      "COMBAT_0,COMBAT_1",
+      "COMBAT_0,SAPPHIRE_0",
+      "TOPAZ_0",
+      "JADE_0,MINING_0",
+      "RUBY_2,RUBY_3,RUBY_4",
+      "JASPER_0,SAPPHIRE_0,SAPPHIRE_1",
+      "COMBAT_0,OPAL_0",
+      "AMBER_0",
+      "RUBY_2,RUBY_3",
+      "RUBY_2",
+      "COMBAT_0,DEFENSIVE_0",
+      "DEFENSIVE_0",
+      "UNIVERSAL_0",
+      "SAPPHIRE_0,SAPPHIRE_1",
+      "RUBY_0",
+      "SAPPHIRE_1",
+      "JADE_1,TOPAZ_0",
+      "TAG_String: \"JADE_0\"",
+      "COMBAT_0,COMBAT_1,SAPPHIRE_0",
+      "AMBER_1,JADE_0,JADE_1,TOPAZ_0",
+      "JADE_0,JADE_1,MINING_0",
+      "TAG_String: \"JADE_0\",TAG_String: \"UNIVERSAL_0\"",
+      "AMBER_0,JADE_0,TOPAZ_0",
+      "COMBAT_0,COMBAT_1,JASPER_0",
+      "TAG_String: \"COMBAT_0\"",
+      "AMBER_0,JADE_0,JADE_1,TOPAZ_0",
+      "JADE_0,TOPAZ_0",
+      "TAG_String: \"JASPER_0\"",
+      "AMBER_1,JADE_1,TOPAZ_0",
+      "JADE_0,JADE_1",
+      "TAG_String: \"JASPER_0\",TAG_String: \"COMBAT_0\"",
+      "COMBAT_0,JASPER_0,SAPPHIRE_0",
+      "TAG_String: \"AMBER_0\",TAG_String: \"JADE_0\"",
+      "COMBAT_0,DEFENSIVE_0,SAPPHIRE_0",
+      "AMBER_0,TOPAZ_0",
+      "AMETHYST_0",
+      "AMETHYST_0,RUBY_0",
+      "OFFENSIVE_0",
+      "TAG_String: \"SAPPHIRE_0\"",
+      "AMBER_0,AMBER_1,JADE_0,JADE_1",
+      "AMBER_0,AMBER_1",
+      "AMBER_0,AMBER_1,TOPAZ_0",
+      "AMBER_1,TOPAZ_0",
+      "COMBAT_0,DEFENSIVE_0,JASPER_0",
+      "TAG_String: \"UNIVERSAL_0\",TAG_String: \"JADE_0\"",
+      "COMBAT_0,COMBAT_1,JASPER_0,SAPPHIRE_0",
+      "TAG_String: \"RUBY_2\",TAG_String: \"RUBY_3\",TAG_String: \"RUBY_4\"",
+      "TAG_String: \"JASPER_0\",TAG_String: \"SAPPHIRE_0\"",
+      "AMBER_0,AMBER_1,JADE_0,TOPAZ_0",
+      "COMBAT_0,COMBAT_1,DEFENSIVE_0",
+      "TAG_String: \"TOPAZ_0\"",
+      "TAG_String: \"JASPER_0\",TAG_String: \"JASPER_1\"",
+      "TAG_String: \"COMBAT_0\",TAG_String: \"COMBAT_1\"",
+      "TAG_String: \"COMBAT_0\",TAG_String: \"JASPER_0\"",
+      "AMBER_1",
+      "COMBAT_0,COMBAT_1,DEFENSIVE_0,SAPPHIRE_0",
+      "COMBAT_1",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\",TAG_String: \"JADE_0\",TAG_String: \"AMBER_1\",TAG_String: \"AMBER_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\",TAG_String: \"JADE_0\"",
+      "TAG_String: \"JADE_0\",TAG_String: \"AMBER_0\"",
+      "AMBER_1,JADE_0,TOPAZ_0",
+      "JADE_1",
+      "AMBER_0,JADE_1,TOPAZ_0",
+      "COMBAT_0,DEFENSIVE_0,JASPER_0,SAPPHIRE_0",
+      "TAG_String: \"RUBY_2\",TAG_String: \"RUBY_3\"",
+      "TAG_String: \"AMBER_0\"",
+      "AMBER_0,AMBER_1,JADE_0",
+      "AMBER_0,JADE_0,JADE_1",
+      "TAG_String: \"RUBY_2\"",
+      "AMBER_0,AMBER_1,JADE_1,TOPAZ_0",
+      "TAG_String: \"UNIVERSAL_0\"",
+      "TAG_String: \"AMBER_0\",TAG_String: \"JADE_0\",TAG_String: \"AMBER_1\",TAG_String: \"JADE_1\",TAG_String: \"TOPAZ_0\"",
+      "TAG_String: \"DEFENSIVE_0\"",
+      "OPAL_0",
+      "COMBAT_0,COMBAT_1,DEFENSIVE_0,JASPER_0,SAPPHIRE_0",
+      "COMBAT_0,COMBAT_1,DEFENSIVE_0,JASPER_0",
+      "TAG_String: \"JASPER_0\",TAG_String: \"SAPPHIRE_0\",TAG_String: \"SAPPHIRE_1\"",
+      "RUBY_3",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\",TAG_String: \"AMBER_1\",TAG_String: \"JADE_0\",TAG_String: \"AMBER_0\"",
+      "TAG_String: \"COMBAT_0\",TAG_String: \"OPAL_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\",TAG_String: \"JADE_0\",TAG_String: \"AMBER_0\",TAG_String: \"AMBER_1\"",
+      "TAG_String: \"DEFENSIVE_0\",TAG_String: \"COMBAT_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\"",
+      "JASPER_1",
+      "TAG_String: \"SAPPHIRE_0\",TAG_String: \"COMBAT_0\"",
+      "AMBER_1,JADE_1",
+      "TAG_String: \"SAPPHIRE_0\",TAG_String: \"JASPER_0\"",
+      "AMBER_1,JADE_0,JADE_1",
+      "TAG_String: \"JADE_0\",TAG_String: \"MINING_0\"",
+      "TAG_String: \"SAPPHIRE_1\"",
+      "TAG_String: \"RUBY_0\"",
+      "DEFENSIVE_0,SAPPHIRE_0",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_0\",TAG_String: \"JADE_1\"",
+      "MINING_0",
+      "AMBER_1,JADE_0",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_0\",TAG_String: \"JADE_1\",TAG_String: \"AMBER_1\",TAG_String: \"AMBER_0\"",
+      "RUBY_3,RUBY_4",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_0\"",
+      "TAG_String: \"JADE_0\",TAG_String: \"JADE_1\",TAG_String: \"TOPAZ_0\"",
+      "TAG_String: \"COMBAT_1\",TAG_String: \"COMBAT_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_0\",TAG_String: \"JADE_1\",TAG_String: \"AMBER_0\",TAG_String: \"AMBER_1\"",
+      "TAG_String: \"JADE_0\",TAG_String: \"JADE_1\"",
+      "RUBY_2,RUBY_4",
+      "TAG_String: \"OFFENSIVE_0\"",
+      "RUBY_4",
+      "TAG_String: \"AMETHYST_0\"",
+      "AMBER_0,JADE_1",
+      "DEFENSIVE_0,JASPER_0",
+      "TAG_String: \"JASPER_1\",TAG_String: \"JASPER_0\"",
+      "TAG_String: \"JADE_1\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"AMBER_0\",TAG_String: \"JADE_0\",TAG_String: \"AMBER_1\",TAG_String: \"JADE_1\"",
+      "TAG_String: \"AMBER_0\",TAG_String: \"TOPAZ_0\"",
+      "AMBER_0,AMBER_1,JADE_1",
+      "COMBAT_1,SAPPHIRE_0",
+      "TAG_String: \"SAPPHIRE_0\",TAG_String: \"SAPPHIRE_1\"",
+      "TAG_String: \"AMBER_1\"",
+      "TAG_String: \"RUBY_0\",TAG_String: \"AMETHYST_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"AMBER_1\"",
+      "TAG_String: \"COMBAT_1\"",
+      "TAG_String: \"OPAL_0\"",
+      "COMBAT_1,DEFENSIVE_0",
+      "RUBY_2,RUBY_2,RUBY_3",
+      "RUBY_2,RUBY_3,RUBY_3",
+      "UNIVERSAL_0,UNIVERSAL_0",
+      "TAG_String: \"AMBER_0\",TAG_String: \"AMBER_1\"",
+      "COMBAT_0,COMBAT_0,COMBAT_1",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"AMBER_0\"",
+      "COMBAT_0,COMBAT_0,SAPPHIRE_0",
+      "TAG_String: \"JADE_0\",TAG_String: \"TOPAZ_0\"",
+      "TAG_String: \"SAPPHIRE_1\",TAG_String: \"SAPPHIRE_0\"",
+      "JADE_0,UNIVERSAL_0,UNIVERSAL_0",
+      "TAG_String: \"COMBAT_0\",TAG_String: \"DEFENSIVE_0\"",
+      "TAG_String: \"TOPAZ_0\",TAG_String: \"JADE_1\",TAG_String: \"AMBER_1\"",
+      "TAG_String: \"MINING_0\",TAG_String: \"JADE_0\"",
+      "TAG_String: \"RUBY_2\",TAG_String: \"RUBY_4\",TAG_String: \"RUBY_3\"",
+      "TAG_String: \"COMBAT_0\",TAG_String: \"SAPPHIRE_0\"",
+      "TAG_String: \"OPAL_0\",TAG_String: \"COMBAT_0\"",
+      "TAG_String: \"JADE_1\",TAG_String: \"JADE_0\"",
+      "TAG_String: \"JADE_1\",TAG_String: \"TOPAZ_0\"",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": "Exact unlocked slots"
+  },
+  {
+    "name": "PerfectGemsCount",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": "How many perfect gems are on the item"
+  },
+  {
+    "name": "FlawlessGemsCount",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": "How many flawless gems are on the item"
+  },
+  {
+    "name": "Everything",
+    "options": [
+      "true"
+    ],
+    "type": 385,
+    "longType": "Equal, SIMPLE, BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "DyeItem",
+    "options": [
+      "Any",
+      "DYE_HOLLY",
+      "DYE_WILD_STRAWBERRY",
+      "DYE_NECRON",
+      "DYE_MANGO",
+      "DYE_PURE_BLACK",
+      "DYE_BYZANTIUM",
+      "DYE_PURE_WHITE",
+      "DYE_BRICK_RED",
+      "DYE_NYANZA",
+      "DYE_DARK_PURPLE",
+      "DYE_AQUAMARINE",
+      "DYE_FLAME",
+      "DYE_CARMINE",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "PartyHatYear",
+    "options": [
+      "2020",
+      "2023"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "PartyHatColor",
+    "options": [
+      "Any",
+      "black",
+      "yellow",
+      "green",
+      "lime",
+      "orange",
+      "red",
+      "purple",
+      "pink",
+      "aqua",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Edition",
+    "options": [
+      "1",
+      "111663"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "BaseStatBoost",
+    "options": [
+      "0",
+      "50"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ManaDisintegrator",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "DrillPartEngine",
+    "options": [
+      "Any",
+      "amber_polished_drill_engine",
+      "ruby_polished_drill_engine",
+      "mithril_drill_engine",
+      "sapphire_polished_drill_engine",
+      "titanium_drill_engine",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "DrillPartFuelTank",
+    "options": [
+      "Any",
+      "titanium_fuel_tank",
+      "gemstone_fuel_tank",
+      "perfectly_cut_fuel_tank",
+      "mithril_fuel_tank",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "DrillPartUpgradeModule",
+    "options": [
+      "Any",
+      "goblin_omelette",
+      "goblin_omelette_pesto",
+      "goblin_omelette_sunny_side",
+      "goblin_omelette_spicy",
+      "goblin_omelette_blue_cheese",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "AbilityScroll",
+    "options": [
+      "Any",
+      "IMPLOSION_SCROLL SHADOW_WARP_SCROLL WITHER_SHIELD_SCROLL",
+      "WITHER_SHIELD_SCROLL",
+      "IMPLOSION_SCROLL",
+      "SHADOW_WARP_SCROLL",
+      "IMPLOSION_SCROLL SHADOW_WARP_SCROLL",
+      "IMPLOSION_SCROLL WITHER_SHIELD_SCROLL",
+      "SHADOW_WARP_SCROLL WITHER_SHIELD_SCROLL",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "ArtOfPeace",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Model",
+    "options": [
+      "Any",
+      "BLUE_RED",
+      "SUMSUNG_1",
+      "BLUE_AQUA",
+      "BLUE_YELLOW",
+      "BLUE_BLUE",
+      "REZAR",
+      "SUMSUNG_2",
+      "BLUE_GREEN",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "FarmedCultivating",
+    "options": [
+      "-2115343135",
+      "2139734510"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "FarmingForDummies",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "MinedCrops",
+    "options": [
+      "0",
+      "2145517963"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ThunderCharge",
+    "options": [
+      "Any",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "5000000",
+      "4050000",
+      "3700000",
+      "3550000",
+      "3300000",
+      "3250000",
+      "3200000",
+      "3050000",
+      "3000000",
+      "2900000",
+      "2750000",
+      "2650000",
+      "2600000",
+      "2500000",
+      "2450000",
+      "2250000",
+      "2200000",
+      "2150000",
+      "2100000",
+      "2000000",
+      "1950000",
+      "1900000",
+      "1800000",
+      "1750000",
+      "1700000",
+      "1650000",
+      "1600000",
+      "1550000",
+      "1500000",
+      "1450000",
+      "1400000",
+      "1350000",
+      "1300000",
+      "1250000",
+      "1200000",
+      "1150000",
+      "1100000",
+      "1050000",
+      "1000000",
+      "850000",
+      "800000",
+      "750000",
+      "700000",
+      "650000",
+      "600000",
+      "550000",
+      "500000",
+      "450000",
+      "400000",
+      "350000",
+      "300000",
+      "250000",
+      "200000",
+      "150000",
+      "100000",
+      "50000",
+      "49276",
+      "49760",
+      "49999",
+      "48370",
+      "44512",
+      "44955",
+      "40100",
+      "40506",
+      "39074",
+      "39391",
+      "39475",
+      "38015",
+      "37580",
+      "36520",
+      "35120",
+      "30684",
+      "28168",
+      "27090",
+      "27250",
+      "27550",
+      "27905",
+      "27939",
+      "26309",
+      "25888",
+      "24488",
+      "24525",
+      "23135",
+      "22048",
+      "20000",
+      "19080",
+      "17009",
+      "17584",
+      "17680",
+      "17916",
+      "16480",
+      "16640",
+      "16648",
+      "16869",
+      "15056",
+      "15114",
+      "15140",
+      "15602",
+      "13490",
+      "13728",
+      "11757",
+      "10015",
+      "10250",
+      "9722",
+      "8669",
+      "8876",
+      "7435",
+      "6160",
+      "6193",
+      "6250",
+      "6310",
+      "6345",
+      "6528",
+      "6893",
+      "5000",
+      "5400",
+      "5600",
+      "5662",
+      "4000",
+      "4250",
+      "4265",
+      "4270",
+      "4605",
+      "4629",
+      "4750",
+      "3000",
+      "3100",
+      "3150",
+      "3165",
+      "3200",
+      "3250",
+      "3582",
+      "3600",
+      "3634",
+      "2000",
+      "2056",
+      "2080",
+      "2200",
+      "2250",
+      "2286",
+      "2410",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "Sold",
+    "options": [
+      "true",
+      "false"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "ItemNameContains",
+    "options": [
+      ""
+    ],
+    "type": 33,
+    "longType": "Equal, RANGE",
+    "description": null
+  },
+  {
+    "name": "HasAttribute",
+    "options": [
+      "true",
+      "false"
+    ],
+    "type": 256,
+    "longType": "BOOLEAN",
+    "description": null
+  },
+  {
+    "name": "ruby0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "FLAWLESS",
+      "ROUGH",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "ruby1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "ROUGH",
+      "FLAWLESS",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "jasper0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "FLAWED",
+      "ROUGH",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "jasper1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "PERFECT",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "jade0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "PERFECT",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "jade1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "PERFECT",
+      "FLAWLESS",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "topaz0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "PERFECT",
+      "FLAWLESS",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "topaz1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "amethyst0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "PERFECT",
+      "ROUGH",
+      "FLAWLESS",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "amethyst1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "ROUGH",
+      "FLAWLESS",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "amber0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "PERFECT",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "amber1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "PERFECT",
+      "FLAWLESS",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "sapphire0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "FLAWED",
+      "PERFECT",
+      "ROUGH",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "sapphire1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "FLAWED",
+      "ROUGH",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "opal0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "PERFECT",
+      "ROUGH",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "opal1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "combat0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "ROUGH",
+      "FLAWED",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "combat1Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "ROUGH",
+      "PERFECT",
+      "FLAWED",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "offensive0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "ROUGH",
+      "FLAWLESS",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "offensive1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "defensive0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "ROUGH",
+      "FLAWED",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "defensive1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "mining0Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "mining1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "universal0Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWLESS",
+      "FLAWED",
+      "ROUGH",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "universal1Gem",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "combat0GemType",
+    "options": [
+      "Any",
+      "JASPER",
+      "SAPPHIRE",
+      "AMETHYST",
+      "RUBY",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "combat1GemType",
+    "options": [
+      "Any",
+      "JASPER",
+      "SAPPHIRE",
+      "AMETHYST",
+      "RUBY",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "offensive0GemType",
+    "options": [
+      "Any",
+      "JASPER",
+      "SAPPHIRE",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "offensive1GemType",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "defensive0GemType",
+    "options": [
+      "Any",
+      "AMETHYST",
+      "RUBY",
+      "OPAL",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "defensive1GemType",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "mining0GemType",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "mining1GemType",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "universal0GemType",
+    "options": [
+      "Any",
+      "TOPAZ",
+      "JASPER",
+      "AMBER",
+      "JADE",
+      "RUBY",
+      "AMETHYST",
+      "SAPPHIRE",
+      "OPAL",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "universal1GemType",
+    "options": [
+      "Any",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "amethyst2Gem",
+    "options": [
+      "Any",
+      "FINE",
+      "FLAWED",
+      "FLAWLESS",
+      "ROUGH",
+      "PERFECT",
+      "None"
+    ],
+    "type": 1,
+    "longType": "Equal",
+    "description": null
+  },
+  {
+    "name": "lifeline",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "breeze",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "speed",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "experience",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "mana_pool",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "life_regeneration",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "blazing_resistance",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "arachno_resistance",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "undead_resistance",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "blazing_fortune",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fishing_experience",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "double_hook",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "infection",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "trophy_hunter",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fisherman",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "hunter",
+    "options": [
+      "1",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fishing_speed",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "life_recovery",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ignition",
+    "options": [
+      "1",
+      "8"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "combo",
+    "options": [
+      "1",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "attack_speed",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "midas_touch",
+    "options": [
+      "1",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "mana_regeneration",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "veteran",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "mending",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ender_resistance",
+    "options": [
+      "1",
+      "9"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "dominance",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ender",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "mana_steal",
+    "options": [
+      "1",
+      "8"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "blazing",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "elite",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "arachno",
+    "options": [
+      "1",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "undead",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "warrior",
+    "options": [
+      "1",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "deadeye",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fortitude",
+    "options": [
+      "1",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "magic_find",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "vitality",
+    "options": [
+      "1",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "unknown",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "cleave",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "critical",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "cubism",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ender_slayer",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "execute",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "first_strike",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "giant_killer",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "impaling",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "lethality",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "life_steal",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "luck",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "scavenger",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "thunderlord",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "telekinesis",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "vampirism",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "venomous",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "growth",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "aiming",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "dragon_hunter",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "infinite_quiver",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "piercing",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "snipe",
+    "options": [
+      "0",
+      "4"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "harvesting",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "rainbow",
+    "options": [
+      "0",
+      "2"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "smelting_touch",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "angler",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "blessing",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "caster",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "frail",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "magnet",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "spiked_hook",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "bane_of_arthropods",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fire_aspect",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "looting",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "knockback",
+    "options": [
+      "0",
+      "2"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "sharpness",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "smite",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "aqua_affinity",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "blast_protection",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "depth_strider",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "feather_falling",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fire_protection",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "frost_walker",
+    "options": [
+      "0",
+      "2"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "projectile_protection",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "protection",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "respiration",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "thorns",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "flame",
+    "options": [
+      "0",
+      "2"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "power",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "punch",
+    "options": [
+      "0",
+      "2"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "efficiency",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "fortune",
+    "options": [
+      "0",
+      "4"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "silk_touch",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "lure",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "luck_of_the_sea",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "true_protection",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "sugar_rush",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "replenish",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "rejuvenate",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_bank",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_combo",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_jerry",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_last_stand",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_no_pain_no_gain",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_wisdom",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_wise",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "expertise",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_chimera",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_rend",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "overload",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_legion",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_swarm",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "big_brain",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "compact",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "vicious",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "counter_strike",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_carrot",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_cactus",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_cane",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_coco",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_melon",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_mushrooms",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_pumpkin",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_potato",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_warts",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "turbo_wheat",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "chance",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "PROSECUTE",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "syphon",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "respite",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "thunderbolt",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "titan_killer",
+    "options": [
+      "0",
+      "7"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "triple_strike",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_soul_eater",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_one_for_all",
+    "options": [
+      "0",
+      "1"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "None",
+    "options": [
+      "0"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "cultivating",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "delicate",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "smarty_pants",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "pristine",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_fatal_tempo",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_inferno",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "charm",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "corruption",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ferocious_mana",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "strong_mana",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "hardened_mana",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "mana_vampire",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "smoldering",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_reiterate",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_flash",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "hecatomb",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "champion",
+    "options": [
+      "0",
+      "10"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_habanero_tactics",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "cayenne",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "divine_gift",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "piscary",
+    "options": [
+      "0",
+      "6"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_bobbin_time",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "tabasco",
+    "options": [
+      "0",
+      "3"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "prosperity",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "sunder",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "dedication",
+    "options": [
+      "0",
+      "4"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "Any",
+    "options": [
+      "0"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "green_thumb",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  },
+  {
+    "name": "ultimate_reiterate",
+    "options": [
+      "0",
+      "5"
+    ],
+    "type": 48,
+    "longType": "NUMERICAL, RANGE",
+    "description": null
+  }
+]
